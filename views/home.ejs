@@ -1,0 +1,11 @@
+<div class="container mt-5">
+  <h2 class="text-center">List Users</h2>
+
+  <div class="container">
+    <ol class="list-group">
+      <% data.forEach(t => { %>
+      <li class="list-group-item list-group-item-action fw-bold position-relative"><%= t.name %></li>
+      <% }) %>
+    </ul>
+  </div>
+</div>
